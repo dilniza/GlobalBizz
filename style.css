@@ -1,0 +1,236 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header start */
+header {
+    background: url(./img/headerbackground.png) no-repeat center bottom / cover;
+    height: 476px;
+}
+
+header .menu {
+    height: 115px;
+    width: 100%;
+    margin: auto;
+    padding: 24px 0;
+    background: #fcfcfc;
+    position: absolute;
+    top: 20px;
+    box-shadow: 0 0 16px #a1a1a1;
+}
+
+header .menu nav {
+    width: 900px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+header .menu nav .menulist ul li {
+    list-style: none;
+    margin: 25px 17px;
+}
+
+header .menu nav .menulist ul {
+    display: flex;
+    align-items: center;
+}
+
+header .menu nav .menulist ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Lora-Regular";
+    color: #000000;
+    transition: 1s;
+}
+
+header .menu nav .menulist ul li a:hover,
+header .menu nav .menulist ul li a.active {
+    color: #c53005;
+}
+
+header .menu h1 {
+    color: #ffffff;
+    font-size: 70px;
+    font-weight: 400;
+    font-family: "Lora-Regular";
+    text-align: center;
+    padding-top: 50px;
+}
+
+/* main start */
+
+/* main top */
+main { 
+    margin: auto;
+}
+
+main .main .top {
+    background: #f2f2f2;
+    height: 295px;
+    display: flex;
+    justify-content: center;
+    box-shadow: inset 0 0 23px #e4e4e4;
+}
+
+main .main .top div {
+    width: 230px;
+    padding: 30px;
+    text-align: center;
+}
+
+main .main .top h3 {
+    font-family: "Lora-Regular";
+    font-size: 26px;
+    font-weight: 400;
+    color: 000000;
+    text-align: center;
+}
+
+main .main .top .linetop {
+    height: 248px;
+    margin: 17px 0;
+}
+
+main .main .top div img {
+    margin: 20px 0;
+}
+
+main .main .butn {
+    width: 103px;
+    height: 42px;
+    font-family: "Trebuchet MS";
+    font-size: 14px;
+    font-weight: 400;
+    color: #696969;
+    background: #fdfdfd;
+    border: 1px solid #c2c2c2;
+    padding: 12px;
+    border-radius: 6px;
+    margin-bottom: 38px;
+}
+
+/* main bottom */
+
+main .main .bottom {
+    width: 900px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* main bottom left */
+
+main .main .bottom .left {
+    margin-top: 34px;
+    margin-bottom: 55px;
+    width: 545px;
+    height: 350px;
+}
+
+main .main .bottom h2 {
+    font-family: "Lora-Regular";
+    font-weight: 400;
+    font-size: 30px;
+    color: black;
+}
+
+main .main .bottom .left h4 {
+    font-family: "Lora-Regular";
+    color: #8c8c8c;
+    font-size: 17px;
+}
+
+main .main .bottom .left p {
+    line-height: 22px;
+    font-family: "Trebuchet MS";
+    font-size: 14px;
+    color: #696969;
+    margin: 26px 0;
+}
+
+main .main .bottom .left span {
+    font-weight: 700;
+}
+
+main .main .bottom .inlink {
+    color: #c53005;
+}
+
+/* main bottom right */
+
+main .main .bottom .right {
+    width: 283px;
+    margin-top: 34px;
+    margin-bottom: 55px;
+}
+
+main .main .bottom .right .rasm {
+    margin-top: 20px;
+    display: flex;
+}
+
+main .main .bottom .right .rasm img {
+    width: 80px;
+    height: 80px;
+    margin-right: 27px;
+    color: #696969;
+    font-family: "Tre";
+}
+
+main .main .bottom .right p {
+    font-size: 14px;
+    color: #696969;
+    font-family: "Trebuchet MS";
+    padding-top: 10px;
+}
+
+main .main .bottom .right a {
+    font-size: 14px;
+    font-family: "Trebuchet MS";
+    padding-top: 10px;
+}
+
+/* footer start */
+
+footer {
+    background: #f2f2f2;
+    height: 155px;
+    margin: auto;
+}
+
+footer .contact {
+    width: 1200px;
+    margin: auto;
+    padding: 40px 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .contact p {
+    font-family: "Lora-Regular";
+    font-weight: 400;
+    font-size: 20px;
+}
+
+footer .contact .left a.number {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Lora-Regular";
+    color: #818181;
+    text-decoration: none;
+}
+
+footer .contact .right img {
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
